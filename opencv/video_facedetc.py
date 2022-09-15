@@ -29,5 +29,5 @@ if __name__ == '__main__':
         key = cv2.waitKey(1)
         if key == ord('q'):  # 当输入q时，停止读取
             break
-    print(image.shape)
+    #print(image.shape)
     cap.release()  # 释放内存
